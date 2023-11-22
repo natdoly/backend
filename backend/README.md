@@ -1,2 +1,0 @@
-- command
-  - git stash : mettre de coté

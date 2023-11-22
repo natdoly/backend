@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="fr.efrei.backend.BackendApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-11-22T08:06:07" hostname="Nathans-MacBook-Pro.local" time="0.682">
+  <properties/>
+  <testcase name="contextLoads()" classname="fr.efrei.backend.BackendApplicationTests" time="0.682"/>
+  <system-out><![CDATA[09:06:04.242 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [fr.efrei.backend.BackendApplicationTests]: BackendApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+09:06:04.342 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration fr.efrei.backend.BackendApplication for test class fr.efrei.backend.BackendApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::       (v3.2.0-SNAPSHOT)
+
+2023-11-22T09:06:04.705+01:00  INFO 1390 --- [    Test worker] f.efrei.backend.BackendApplicationTests  : Starting BackendApplicationTests using Java 21.0.1 with PID 1390 (started by nathan in /Users/nathan/Documents/GitHub/backend/backend)
+2023-11-22T09:06:04.706+01:00  INFO 1390 --- [    Test worker] f.efrei.backend.BackendApplicationTests  : No active profile set, falling back to 1 default profile: "default"
+2023-11-22T09:06:05.317+01:00  INFO 1390 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-22T09:06:05.337+01:00  INFO 1390 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 12 ms. Found 0 JPA repository interfaces.
+2023-11-22T09:06:05.614+01:00  WARN 1390 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). The currently created BeanPostProcessor [annotationActionEndpointMapping] is declared through a non-static factory method on that class; consider declaring it as static instead.
+2023-11-22T09:06:05.678+01:00  INFO 1390 --- [    Test worker] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2023-11-22T09:06:05.810+01:00  INFO 1390 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-11-22T09:06:06.004+01:00  INFO 1390 --- [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:879fd6b0-0d5a-48df-b859-3c4ed29553e0 user=SA
+2023-11-22T09:06:06.005+01:00  INFO 1390 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-11-22T09:06:06.058+01:00  INFO 1390 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-22T09:06:06.105+01:00  INFO 1390 --- [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.3.1.Final
+2023-11-22T09:06:06.137+01:00  INFO 1390 --- [    Test worker] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2023-11-22T09:06:06.351+01:00  INFO 1390 --- [    Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-11-22T09:06:06.674+01:00  INFO 1390 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2023-11-22T09:06:06.679+01:00  INFO 1390 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-22T09:06:06.822+01:00  WARN 1390 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-22T09:06:07.224+01:00  INFO 1390 --- [    Test worker] f.efrei.backend.BackendApplicationTests  : Started BackendApplicationTests in 2.735 seconds (process running for 3.965)
+]]></system-out>
+  <system-err><![CDATA[WARNING: A Java agent has been loaded dynamically (/Users/nathan/.gradle/caches/modules-2/files-2.1/net.bytebuddy/byte-buddy-agent/1.14.10/90ed94ac044ea8953b224304c762316e91fd6b31/byte-buddy-agent-1.14.10.jar)
+WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
+WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
+WARNING: Dynamic loading of agents will be disallowed by default in a future release
+]]></system-err>
+</testsuite>
