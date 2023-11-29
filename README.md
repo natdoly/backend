@@ -1,2 +1,4 @@
 - command
   - git stash : mettre de coté
+- pour lancer le projet : ./gradlew bootRun
+- client h2 : localhost:8080/h2-console/
